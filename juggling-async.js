@@ -39,8 +39,6 @@ HTTP.get(URL1, function (request) {
                     request.on('end', function () {
                         const sentence = wordsList.join('')
                         console.log(sentence);
-                
-                        HTTP.get
                     })
                 })
             })
